@@ -1,0 +1,43 @@
+{
+  "name": "o-auth-lib",
+  "version": "1.0.1",
+  "description": "A TypeScript-friendly authentication library for OAuth and custom login flows with PKCE support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "oauth",
+    "react",
+    "typescript",
+    "authentication",
+    "pkce"
+  ],
+  "author": "dataxis-labs",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dataxis-UditSingh/o-auth-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dataxis-UditSingh/o-auth-lib/issues"
+  },
+  "homepage": "https://github.com/Dataxis-UditSingh/o-auth-lib#readme",
+  "type": "commonjs",
+  "peerDependencies": {
+    "react": "^17 || ^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.7"
+  }
+}
