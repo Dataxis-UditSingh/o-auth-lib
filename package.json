@@ -31,7 +31,7 @@
   "homepage": "https://github.com/Dataxis-UditSingh/o-auth-lib#readme",
   "type": "commonjs",
   "peerDependencies": {
-    "react": "^17 || ^18"
+    "react": "^17 || ^18 || ^19"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
