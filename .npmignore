@@ -3,3 +3,6 @@ src/
 .env.*
 *.log
 tsconfig.json
+vitest.config.ts
+.github/
+*.test.ts
